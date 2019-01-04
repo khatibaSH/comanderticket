@@ -8,7 +8,7 @@ function clean(text) {
         return text;
 }
 
-const prefix = "-";
+const prefix = "&";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
